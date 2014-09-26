@@ -1,0 +1,145 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color: #b0b0b0;
+    margin: 0;
+    padding: 0;
+}
+div.header{
+    overflow: auto;
+    width: 100%;
+}
+img.home{
+    float: left;
+    width: 9.375%;/*60px*/
+    height: 50%;
+    margin: 1em;
+}
+span.clear{
+    float: right;
+    margin: 1em;
+    font: 200 2em 'Open Sans';
+    color: white;
+}
+div.taskContainer{
+    margin: 0 auto;
+    overflow: auto;
+    width: 95%;
+    border: 2px solid white;
+}
+div.tasks{
+    margin: 0 auto;
+    margin-top: 1.3157894736842105263157894736842%;
+    background-color: white;
+    height: 26.315789473684210526315789473684%;/*100px*/
+    width: 97%;
+}
+div.taskSection{
+    width: 100%;
+    height: 100%;
+    padding-top: 1.5em;
+}
+span.taskOne{
+    margin-left: 7.8125%;/*50px*/
+    font: 300 2em 'Open Sans';
+    color: #777777;
+}
+span.companyName{
+    margin-left: 7.8125%;/*50px*/
+    font: 300 1em 'Open Sans';
+    color: #c8c8c8;
+}
+span.department{
+    float: right;
+    margin-right: 24.671052631578947368421052631579%;/*150px*/
+    color: #c8c8c8;
+}
+span.addText{
+    color: white;
+    font: 300 2em 'Open Sans';
+    float: right;
+    margin-top: 6.5%;
+    margin-right: 15%;
+}
+span.add{
+    color: white;
+    font: 300 6em 'Open Sans';
+    float: right;
+    height: 5.2816901408450704225352112676056%;
+    margin-top: -2%;
+    margin-right: 1%;
+}
+
+div.log{
+    padding-top: 3%;
+    width: 100%;
+}
+h2.log{
+    margin-left: 33.59375%;
+    color: white;
+    font: 300 2.2em 'Open Sans';
+}
+div.input{
+    margin: 0 auto;
+    width: 90%;
+}
+input{
+    margin-left: 5%;
+    width: 35%;
+    padding: 3%;
+}
+
+div.checkin{
+    margin: 0 auto;
+    margin-top: 15%;
+    height: 0;
+    padding-bottom: 23.4375%;
+    width: 23.4375%;
+    border-radius: 50%;
+    background-color: white;
+    z-index: 2;
+    position: relative;
+}
+div.checkinBorder{
+    height: 0;
+    padding-bottom: 86.666666666666666666666666666667%;
+    width: 86.666666666666666666666666666667%;/*130px*/
+    border-radius: 50%;
+    border: 3px solid gray;
+    background-color: white;
+    margin: 4.5%;
+    position: absolute;
+}
+img.checkin{
+    width: 73.076923076923076923076923076923%;/*95px*/
+    height: 75px;
+    /*padding-bottom: 73.076923076923076923076923076923%;*/
+    margin-left: 12.307692307692307692307692307692%;
+    margin-top: 18.461538461538461538461538461538%;
+}
+
+div.attendanceLog{
+    width: 99.5%;
+    border: 1px solid #555555;
+    margin-top: -10%;
+    background-color: #555555;
+    z-index: -1;
+}
+h2.attendance{
+    margin-left: 29%;
+    margin-top: 11%;
+}
+div.aLog{
+    background-color: #555555;
+    border-top: 0.5px solid white;
+}
+span.taskLog{
+    color: white;
+}
+span.date{
+    margin-left: 8.125%;
+    color: white;
+}
+span.time{
+    color: white;
+}
